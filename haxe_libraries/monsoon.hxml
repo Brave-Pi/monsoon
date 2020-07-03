@@ -1,0 +1,9 @@
+-lib asys
+-lib http-status
+-lib mime
+-lib path2ereg
+-lib tink_http
+-lib tink_macro
+-lib tink_url
+-D monsoon=0.0.0
+-cp src

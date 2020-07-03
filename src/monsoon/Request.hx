@@ -11,8 +11,8 @@ class MonsoonRequest<T> extends IncomingRequest {
 	
 	public function new(req: IncomingRequest) {
 		super(req.clientIp, req.header, req.body);
-		path = header.uri.path;
-		url = header.uri;
+		path = header.url.path;
+		url = header.url;
 		query = cast url.query.toMap();
 		method = header.method;
 		for (header in header.get('set-cookie')) {

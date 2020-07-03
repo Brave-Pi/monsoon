@@ -1,3 +1,18 @@
+# **Brave Pi Edition**
+
+Setup:
+```
+npm i
+npx lix download
+```
+
+Build:
+```
+npx haxe tests.hxml
+```
+
+
+
 # Monsoon [![Build Status](https://travis-ci.org/benmerckx/monsoon.svg?branch=master)](https://travis-ci.org/benmerckx/monsoon)
 
 A minimal haxe web framework and embedded webserver using [tink_http](https://github.com/haxetink/tink_http).

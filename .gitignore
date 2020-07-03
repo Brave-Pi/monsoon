@@ -4,3 +4,4 @@ bin
 *.hxproj
 /modd.conf
 *.mp4
+/node_modules/**

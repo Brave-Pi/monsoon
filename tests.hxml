@@ -1,4 +1,5 @@
--cp ./tests/
--lib buddy
--main RunTests
--dce full
+-lib hxnodejs
+-lib monsoon
+-cp test
+-main Test
+-js test.js
